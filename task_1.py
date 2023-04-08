@@ -6,6 +6,8 @@ m - кол-во элементов второго множества. Затем
 """
 
 from random import randint
+
+
 n_set = set(randint(1, 20) for i in range(int(input('Введите кол-во элементов первого множества: '))))
 print(f'Числа первого набора: {n_set}')
 m_set = set(randint(1, 20) for i in range(int(input('Введите кол-во элементов второго множества: '))))
